@@ -34,9 +34,9 @@ Dashboards for ships
 
 """
 
-from hfos.provisions.base import provisionList
-from hfos.database import objectmodels
-from hfos.logger import hfoslog
+from isomer.provisions.base import provisionList
+from isomer.database import objectmodels
+from isomer.logger import isolog
 
 Dashboards = [
     {

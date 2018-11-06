@@ -44,11 +44,11 @@ This software package is a plugin module for HFOS.
           'hfos>=1.2.0',
           'hfos-navdata>=0.0.1'
       ],
-      entry_points="""[hfos.components]
+      entry_points="""[isomer.components]
     dashboard=hfos.dashboard.dashboard:Dashboard
-    [hfos.schemata]
+    [isomer.schemata]
     dashboardconfig=hfos.dashboard.dashboardconfig:DashboardConfig
-    [hfos.provisions]
+    [isomer.provisions]
     dashboardconfig=hfos.dashboard.provisions.dashboard:provision
     """,
       test_suite="tests.main.main",
